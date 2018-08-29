@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="initial_email" translatable="false">mchiquet+1@adyax.com</string>
+    <string name="initial_password" translatable="false">q1Q!q1Q!</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_zero_margin">0dp</dimen>
+    <dimen name="header_top_margin">50dp</dimen>
+    <dimen name="header_bottom_margin">20dp</dimen>
+    <dimen name="header_bottom_padding">10dp</dimen>
+
+
+    <dimen name="logo_width_size">160dp</dimen>
+    <dimen name="logo_height_size">85dp</dimen>
+    <dimen name="logo_margin_top">45dp</dimen>
+    <dimen name="logo_margin_bottom">20dp</dimen>
+
+    <dimen name="fragment_login_text_size">15sp</dimen>
+    <dimen name="fragment_login_text_margin">20dp</dimen>
+    <dimen name="activity_login_bottom_padding">50dp</dimen>
+
+    <dimen name="nav_header_margin_top">20dp</dimen>
+    <dimen name="nav_header_height">121dp</dimen>
+    <dimen name="nav_header_top_spacing">10dp</dimen>
+    <dimen name="nav_header_vertical_spacing">5dp</dimen>
+
+    <dimen name="nav_header_msg_size">26sp</dimen>
+
+    <dimen name="fragment_obtained_scan_btn_msg_size">16sp</dimen>
+    <dimen name="fragment_obtained_scan_msg_size">16sp</dimen>
+    <dimen name="fragment_obtained_scan_error_msg_size">14sp</dimen>
+    <dimen name="fragment_obtained_text_points_size">50sp</dimen>
+    <dimen name="fragment_obtained_horizontal_margin">40dp</dimen>
+    <dimen name="fragment_obtained_horizontal_margin_top">20dp</dimen>
+    <dimen name="fragment_obtained_header_text_size">18sp</dimen>
+
+    <dimen name="fragment_validate_authcode_validate_text_size">16sp</dimen>
+
+    <dimen name="fragment_obtained_button_padding_left">10dp</dimen>
+    <dimen name="fragment_obtained_button_padding">10dp</dimen>
+    <dimen name="fragment_obtained_text_side_padding">20dp</dimen>
+
+    <dimen name="fragment_obtained_text_padding">10dp</dimen>
+    <dimen name="fragment_obtained_scan_imgtext_margin_top">10dp</dimen>
+    <dimen name="onechar_padding_top_bottom">7dp</dimen>
+    <dimen name="onechar_padding_left_right">5dp</dimen>
+
+    <dimen name="onechar_margin">1dp</dimen>
+
+    <dimen name="action_button_padding">4dp</dimen>
+    <dimen name="manual_code_button_text_size">18sp</dimen>
+    <dimen name="scanner_capsule_text_size">15sp</dimen>
+
+    <dimen name="validation_screen_button_text_size">18sp</dimen>
+    <dimen name="validation_screen_scan_new_text_size">17sp</dimen>
+
+    <dimen name="scanner_hint_text_size">18sp</dimen>
+    <dimen name="manual_code_title_second_text_size">18sp</dimen>
+    <dimen name="welcome_screen_gift_button_text_size">18sp</dimen>
+    <dimen name="welcome_screen_no_points_text_size">18sp</dimen>
+
+</resources>

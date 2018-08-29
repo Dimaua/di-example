@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="initial_email" translatable="false">mobile_app2_ppr_es@yopmail.com</string>
+    <string name="initial_password" translatable="false">Mobile_app2_ppr_es@yopmail.com</string>
+</resources>

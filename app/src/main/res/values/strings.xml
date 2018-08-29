@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Specialist Club</string>
+
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="button_login">Log in</string>
+    <string name="text_sign_up">Don\'t have an account? "<b>Sign up</b></string>
+    <string name="text_forgot_password">Forgot password ?</string>
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="text_error_password">Invalid Password</string>
+    <string name="text_error_email">Invalid Email</string>
+
+    <string name="menu_username" translatable="false">A. Nacache</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_my_account">My account</string>
+    <string name="menu_legal_notice">Terms and Conditions</string>
+    <string name="menu_promotions">Promotions</string>
+    <string name="menu_gift_shop">Gift Shop</string>
+    <string name="menu_sign_out">Disconnect</string>
+    <string name="menu_loyalty_program">Loyalty Program</string>
+
+    <string name="barcode_scanner_hint">Scan the barcode on the Valeo\n product packaging</string>
+    <string name="authcode_scanner_hint">Align the 13 characters authenticity code in the frame. </string>
+
+    <!--Dialogs-->
+    <string name="permission_not_granted">Your permission is required 🔓</string>
+    <string name="permission_not_granted_dialog_message">We need your agreement to use the camera. Please go in your Valeo Specialist Club app settings, approve the camera access then come back to scan.</string>
+    <string name="permission_not_granted_button">@android:string/ok</string>
+
+    <string name="operation_failed_title">Hey, are you still there? 👋</string>
+    <string name="operation_failed">Don\'t leave the application and retry in a few seconds.</string>
+    <string name="operation_failed_button">@android:string/ok</string>
+
+    <string name="barcode_not_eligible_title">Ooops 😔</string>
+    <string name="barcode_not_eligible">This product is not part of the program. Please try with another one.</string>
+    <string name="barcode_not_eligible_button">@android:string/ok</string>
+
+    <string name="barcode_not_valeo_title">Ooops 😳</string>
+    <string name="barcode_not_valeo">Are you really scanning a Valeo product? Sorry, we don\'t recognize it. Give it a try by entering manually.</string>
+    <string name="barcode_not_valeo_button">@android:string/ok</string>
+
+    <string name="product_already_scanned_title">Nice try 😜</string>
+    <string name="product_already_scanned">Do you remember you already scanned this product? Time to go with another!</string>
+    <string name="product_already_scanned_button">@android:string/ok</string>
+
+    <string name="authcode_invalid_title">Ooops ☹️</string>
+    <string name="authcode_invalid">Sorry, we don\'t recognize this code. Please double check on the product\'s label.</string>
+    <string name="authcode_invalid_button">@android:string/ok</string>
+
+    <string name="scan_limit_reached_title">This is too much 😉</string>
+    <string name="scan_limit_reached">You reached the limit of scans for now on this product.</string>
+    <string name="scan_limit_reached_button">@android:string/ok</string>
+
+    <string name="invalid_credentials_title">Ooops 😢</string>
+    <string name="invalid_credentials">Your credentials do not match. Make sure your account has been activated by email as requested. If you still face the issue, contact us from our website.</string>
+    <string name="invalid_credentials_button">@android:string/ok</string>
+
+    <string name="button_scan_another">Scan another product</string>
+    <string name="scan_product_result_template">You have correctly scanned the product \n%s</string>
+    <string name="text_points_top_text">You now have</string>
+    <string name="text_points_bottom_text">on your Loyalty Program</string>
+    <string name="text_points_bottom_first_text">Go to the Loyalty Program</string>
+    <string name="text_points_bottom_second_text">Go to My account</string>
+    <string name="http_request_loading_msg">Loading…</string>
+    <string name="error">Error</string>
+    <string name="try_again">Try again</string>
+    <string name="help">Help</string>
+    <string name="total_points_template">+%dpts</string>
+    <string name="points_template">%d points</string>
+    <string name="create_account_webview_title">Create an account</string>
+    <string name="authcode_scan_help">Some characters can sometimes be wrongly recognized.</string>
+    <string name="authcode_scan_example_first">For example, \"O\" (uppercase \"o\") and \"0\" (number zero)</string>
+    <string name="authcode_scan_example_second">Another example, \"I\" (uppercase \"i\") and \"1\" (number one)</string>
+    <string name="authcode_scan_view_information">View information</string>
+    <string name="authcode_scan_close_information">Close information</string>
+    <string name="button_validate">Validate</string>
+    <string name="text_modify">Modifier</string>
+    <string name="text_authcode_top_modify">You can modify the code</string>
+    <string name="text_authcode_validate">Is this the code on the product?</string>
+    <string name="text_authcode_error">This field is required</string>
+    <string name="text_rescan_product"><u>Cancel, and try with another product</u></string>
+    <string name="session_expired">Your session has expired</string>
+    <string name="button_search_code">Yes, I confirm the code</string>
+    <string name="button_modify_code">No, modify manually</string>
+    <string name="button_recognize_again">No, try again</string>
+
+    <string name="title_scan_notice_first_barcode">Scanning the</string>
+    <string name="title_scan_notice_second_barcode">Barcode</string>
+    <string name="text_scan_notice_help_barcode">Hold the frame in front of the code and\n ensure the camera get a <b>good focus.</b>\n <b>Good lighting conditions</b> can help the\n scan speed and accuracy</string>
+    <string name="title_scan_notice_first_auth">Scanning the</string>
+    <string name="title_scan_notice_second_auth">Authenticity code</string>
+    <string name="text_scan_notice_help_auth">Focus the camera on the code. Be as steady as possible to read the code more quickly.</string>
+    <string name="button_scan_notice_next">Next</string>
+    <string name="text_enter_authcode_manually">Enter code manually</string>
+    <string name="text_enter_barcode_manually">Enter code manually</string>
+    <string name="text_capsule_error_authcode">Ooops, it takes more time than usual. Try to <b>frame the code differently</b> or <b>enter it manually</b>.</string>
+    <string name="text_capsule_error_barcode">Ooops, it takes more time than usual. Try to <b>frame the code differently</b> or <b>enter it manually</b>.</string>
+
+    <string name="text_enter_barcode">Enter the bar code</string>
+    <string name="text_barcode_explanation">The bar code is a 13-digit code you will easily find on the product.</string>
+    <string name="hint_enter_barcode">Enter the bar code</string>
+    <string name="text_submit_barcode">Submit the code</string>
+
+    <string name="text_enter_authcode">Type the authencity code</string>
+    <string name="text_authcode_explanation">The authenticity code is the 13-character string on the label, just below "check authenticity"</string>
+    <string name="hint_enter_authcode">Enter the authencity code</string>
+    <string name="text_submit_authcode">Submit the code</string>
+    
+    <string name="text_welcome_hello">Hello</string>
+    <string name="text_welcome_you_have">You have</string>
+    <string name="text_welcome_points">points</string>
+    <string name="text_welcome_gift_shop">See gifts shop</string>
+    <string name="text_welcome_scan">Scan a product</string>
+    <string name="text_welcome_no_points"><b>Welcome to the Valeo Specialist Club.</b> You can earn point to redeem for gifts! You can then use them in the gifts shop and choose what makes you happy. Tap below on the button <b>\"Scan a product\"</b> to begin!</string>
+
+    <string name="authcode_intro_notice_title_first">Next step, scanning the</string>
+    <string name="authcode_intro_notice_title_second">Authenticity code</string>
+    <string name="authcode_intro_notice_description">To <b>grant your points</b>, your product must be <b>authenticated</b>. The camera will help you in this task.</string>
+    <string name="authcode_intro_notice_next">Let\'s scan the code</string>
+
+</resources>

@@ -1,0 +1,8 @@
+﻿<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/divider_line"
+        android:left="20dp"
+        android:right="20dp"/>
+
+</layer-list>

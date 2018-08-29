@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="manual_code_button_text_size">14sp</dimen>
+    <dimen name="manual_code_title_second_text_size">16sp</dimen>
+    <dimen name="scanner_capsule_text_size">14sp</dimen>
+    <dimen name="scanner_hint_text_size">16sp</dimen>
+    <dimen name="validation_screen_button_text_size">16sp</dimen>
+    <dimen name="validation_screen_scan_new_text_size">15sp</dimen>
+    <dimen name="welcome_screen_gift_button_text_size">14sp</dimen>
+    <dimen name="welcome_screen_no_points_text_size">17sp</dimen>
+</resources>

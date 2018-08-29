@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="SplashActivity" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- NoActionBar application theme. -->
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="listPreferredItemPaddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:drawablePadding">0dp</item>
+
+        <item name="android:listDivider">@drawable/divider</item>
+    </style>
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorErrorText</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+    </style>
+
+    <style name="LoginTextInput" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorLightGrey</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="button_login_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/fragment_login_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorGreen</item>
+    </style>
+
+    <style name="button_green_accept" parent="@style/button_login_text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/base_green_button_background</item>
+    </style>
+
+    <style name="button_validate_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/fragment_login_text_size</item>
+
+    </style>
+
+    <style name="button_scan_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/fragment_obtained_scan_btn_msg_size</item>
+        <item name="android:background">@drawable/scan_result_btn</item>
+        <item name="android:drawableStart">@drawable/scan_result_btn_icon</item>
+        <item name="android:paddingLeft">@dimen/fragment_obtained_button_padding_left</item>
+        <item name="android:paddingTop">@dimen/fragment_obtained_button_padding</item>
+        <item name="android:paddingBottom">@dimen/fragment_obtained_button_padding</item>
+        <item name="android:layout_marginLeft">@dimen/fragment_obtained_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/fragment_obtained_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/fragment_obtained_horizontal_margin_top</item>
+    </style>
+
+    <style name="view_scan_points">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#417505</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/fragment_obtained_scan_msg_size</item>
+        <item name="android:background">@drawable/scan_result_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/fragment_obtained_text_side_padding</item>
+        <item name="android:paddingRight">@dimen/fragment_obtained_text_side_padding</item>
+        <item name="android:paddingTop">@dimen/fragment_obtained_button_padding</item>
+        <item name="android:paddingBottom">@dimen/fragment_obtained_button_padding</item>
+
+        <item name="android:layout_margin">@dimen/activity_vertical_margin</item>
+
+    </style>
+
+    <style name="navigation_view">
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="fake_toolbar_button">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:foreground">?android:attr/actionBarItemBackground</item>
+    </style>
+
+</resources>

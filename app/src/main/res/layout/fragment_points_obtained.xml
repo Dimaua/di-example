@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_zero_margin"
+    android:paddingLeft="@dimen/activity_zero_margin"
+    android:paddingRight="@dimen/activity_zero_margin"
+    android:paddingTop="@dimen/activity_zero_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/nav_header_margin_top">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/close_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                app:srcCompat="@drawable/ic_close_bright"
+                />
+
+            <ImageView
+                android:id="@+id/image_logo"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/splash_valeo_logo"
+                android:gravity="center_vertical"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_added_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/header_bottom_padding"
+            tools:text="+260pts"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/fragment_obtained_text_points_size"
+            />
+
+        <TextView
+            android:id="@+id/text_scan_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/header_bottom_margin"
+            android:paddingTop="@dimen/header_bottom_padding"
+            android:text="@string/scan_product_result_template"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/fragment_obtained_header_text_size"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_points_top_first_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/fragment_login_text_margin"
+        android:gravity="center"
+        android:textSize="@dimen/fragment_obtained_scan_msg_size"
+        android:typeface="normal"/>
+
+    <TextView
+        android:id="@+id/text_points"
+        style="@style/view_scan_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/fragment_login_text_margin"
+        android:textSize="@dimen/fragment_obtained_scan_msg_size"
+        android:typeface="normal"/>
+
+    <TextView
+        android:id="@+id/text_points_top_second_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/text_points_bottom_text"
+        android:textSize="@dimen/fragment_obtained_scan_msg_size"
+        android:typeface="normal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/fragment_obtained_horizontal_margin"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="start"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/text_points_bottom_first_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/text_points_bottom_first_text"
+            android:textSize="@dimen/fragment_obtained_scan_msg_size"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:typeface="normal"/>
+
+        <TextView
+            android:id="@+id/text_points_bottom_second_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/fragment_obtained_scan_imgtext_margin_top"
+            android:drawablePadding="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/text_points_bottom_second_text"
+            android:textSize="@dimen/fragment_obtained_scan_msg_size"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:typeface="normal"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_scan"
+        style="@style/button_scan_text"
+        android:text="@string/button_scan_another"/>
+
+</LinearLayout>

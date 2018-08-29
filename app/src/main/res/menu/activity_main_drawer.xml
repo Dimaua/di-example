@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <group android:checkableBehavior="single">
+
+        <group
+            android:id="@+id/nav_group1"
+            android:checkableBehavior="none">
+            <item
+                android:id="@+id/nav_scan"
+                android:icon="@drawable/picto_scan"
+                android:title="@string/menu_scan"/>
+            <item
+                android:id="@+id/nav_loyalty_program"
+                android:icon="@drawable/picto_loyalty_program"
+                android:title="@string/menu_loyalty_program"/>
+            <item
+                android:id="@+id/nav_gift_shop"
+                android:icon="@drawable/picto_gift_shop"
+                android:title="@string/menu_gift_shop"/>
+            <!--<item-->
+                <!--android:id="@+id/nav_promotions"-->
+                <!--android:icon="@drawable/picto_promotions"-->
+                <!--android:title="@string/menu_promotions"/>-->
+            <item
+                android:id="@+id/nav_my_account"
+                android:icon="@drawable/picto_my_account"
+                android:title="@string/menu_my_account"/>
+            <item
+                android:id="@+id/nav_legal_notice"
+                android:icon="@drawable/picto_legal_notice"
+                android:title="@string/menu_legal_notice"/>
+        </group>
+
+        <group
+            android:id="@+id/nav_group2"
+            android:checkableBehavior="none">
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/picto_sign_out"
+                android:title="@string/menu_sign_out"/>
+        </group>
+
+    </group>
+
+</menu>

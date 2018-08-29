@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <SurfaceView
+        android:id="@+id/camera_preview_surface"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/left_margin_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/right_margin_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <ImageView
+        android:id="@+id/detection_frame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/barcode_frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1.75:1"
+        app:layout_constraintEnd_toStartOf="@id/right_margin_guideline"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="@id/left_margin_guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/camera_overlay"
+        app:layout_constraintBottom_toTopOf="@id/detection_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/scanner_capsule_error"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:alpha="0"
+        android:background="@drawable/capsule_background"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/right_margin_guideline"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="12dp"
+            app:srcCompat="@drawable/ic_alert" />
+
+        <TextView
+            android:id="@+id/scanner_capsule_error_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:textSize="@dimen/scanner_capsule_text_size"
+            android:maxLines="6" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/lower_frame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/camera_overlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detection_frame" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/camera_overlay"
+        app:layout_constraintBottom_toBottomOf="@id/detection_frame"
+        app:layout_constraintEnd_toStartOf="@id/detection_frame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/detection_frame" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/camera_overlay"
+        app:layout_constraintBottom_toBottomOf="@id/detection_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/detection_frame"
+        app:layout_constraintTop_toTopOf="@id/detection_frame" />
+
+    <FrameLayout
+        android:id="@+id/barcode_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/debug_barcode_rect"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/button_menu"
+        style="@style/fake_toolbar_button"
+        android:layout_marginStart="16dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_menu_white" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/button_back"
+        style="@style/fake_toolbar_button"
+        android:layout_marginStart="16dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_new" />
+
+    <TextView
+        android:id="@+id/text_scan_hint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/barcode_scanner_hint"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/scanner_hint_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/button_manual_code"
+        app:layout_constraintEnd_toStartOf="@+id/right_margin_guideline"
+        app:layout_constraintStart_toStartOf="@+id/left_margin_guideline" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/button_scan_help"
+        style="@style/fake_toolbar_button"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_question" />
+
+    <com.valeo.loyalty.android.view.CenterDrawableButton
+        android:id="@+id/button_manual_code"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/scanner_button_background"
+        android:drawablePadding="24dp"
+        android:drawableStart="@drawable/ic_manually_bright"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/manual_code_button_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_margin_guideline"
+        app:layout_constraintStart_toStartOf="@+id/left_margin_guideline" />
+
+</android.support.constraint.ConstraintLayout>

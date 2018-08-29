@@ -1,0 +1,22 @@
+android {
+
+    defaultConfig {
+
+    }
+
+    signingConfigs {
+        debug {
+            keyAlias 'androiddebugkey'
+            keyPassword 'debugkeypass'
+            storePassword 'debugstorepass'
+            storeFile file('../keystore/debug-keystore.jks')
+        }
+        release {
+            keyAlias 'release-key'
+            keyPassword 'releasekeypass'
+            storePassword 'releasestorepass'
+            storeFile file('../keystore/release-keystore.jks')
+        }
+    }
+}
+

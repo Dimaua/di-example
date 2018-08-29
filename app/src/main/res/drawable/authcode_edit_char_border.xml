@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_focused="true"
+        android:drawable="@drawable/authcode_edit_char_border_enable" />
+    <item android:drawable="@drawable/authcode_edit_char_border_disable" />
+</selector>

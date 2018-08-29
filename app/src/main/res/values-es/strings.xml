@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Specialist Club</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="button_login">Iniciar sesión</string>
+    <string name="text_sign_up">No está registrado todavía. <b>Regístrase.</b></string>
+    <string name="error">Error</string>
+    <string name="try_again">Inténtelo de nuevo</string>
+    <string name="text_error_email">Correo electrónico incorrecto</string>
+    <string name="text_error_password">Contraseña incorrecta</string>
+    <string name="text_forgot_password">¿Ha olvidado su contraseña?</string>
+    <string name="forgot_password_title">Contraseña olvidada</string>
+    <string name="text_points_bottom_second_text">Ir a mi cuenta</string>
+    <string name="text_points_bottom_first_text">Ir al Programa de fidelización</string>
+    <string name="menu_scan">Escanear</string>
+    <string name="menu_gift_shop">Tienda de regalos</string>
+    <string name="menu_loyalty_program">Programa de fidelización</string>
+    <string name="menu_promotions">Promociones</string>
+    <string name="menu_my_account">Mi cuenta</string>
+    <string name="menu_legal_notice">Términos y Condiciones Generales</string>
+    <string name="menu_sign_out">Desconectar</string>
+    <string name="total_points_template">+%dpuntos</string>
+    <string name="points_template">%d puntos</string>
+    <string name="scan_product_result_template">El producto se ha escaneado correctamente \n%s</string>
+    <string name="barcode_scanner_hint">Escanee el código de barras que aparece en la caja del producto Valeo.</string>
+    <string name="authcode_scanner_hint">Alinee el código de autenticidad de 13 caracteres en el recuadro.</string>
+
+    <!--Dialogs-->
+    <string name="permission_not_granted">Se requiere su permiso 🔓</string>
+    <string name="permission_not_granted_dialog_message">Necesitamos su consentimiento para usar la cámara. Vaya a  Configuración dentro de su aplicación Valeo Specialist Club, autorice el acceso a la cámara y vuelva a escanear su producto.</string>
+    <string name="permission_not_granted_button">Correcto</string>
+
+    <string name="operation_failed_title">Ooops 😔</string>
+    <string name="operation_failed">No abandone la aplicación y vuelva a intentarlo dentro de unos segundos.</string>
+    <string name="operation_failed_button">Correcto</string>
+
+    <string name="barcode_not_eligible_title">Ooops 😔</string>
+    <string name="barcode_not_eligible">Este producto no entra dentro del programa. Por favor prueba con otro.</string>
+    <string name="barcode_not_eligible_button">Correcto</string>
+
+    <string name="barcode_not_valeo_title">Ooops 😳</string>
+    <string name="barcode_not_valeo">¿Estás realmente escaneando un producto Valeo? Lo sentimos, no lo reconocemos. Pruébalo manualmente.</string>
+    <string name="barcode_not_valeo_button">Correcto</string>
+
+    <string name="product_already_scanned_title">Lo sentimos</string>
+    <string name="product_already_scanned">Este producto ya fue escaneado por usted. Pruebe a escanear otro producto Valeo.</string>
+    <string name="product_already_scanned_button">Correcto</string>
+
+    <string name="authcode_invalid_title">Ooops 😔</string>
+    <string name="authcode_invalid">Lo sentimos, no reconocemos este código. Por favor revise la etiqueta del producto.</string>
+    <string name="authcode_invalid_button">Correcto</string>
+
+    <string name="scan_limit_reached_title">Demasiados escaneos del producto</string>
+    <string name="scan_limit_reached">Alcanzó el límite de escaneos de este producto.</string>
+    <string name="scan_limit_reached_button">Correcto</string>
+
+    <string name="invalid_credentials_title">Ooops 😢</string>
+    <string name="invalid_credentials">Sus credenciales no coinciden. Asegúrese de que su cuenta se haya activado por correo electrónico. Si aún tiene problemas, contáctenos a través de nuestra WEB www.valeoservice.es.</string>
+    <string name="invalid_credentials_button">Correcto</string>
+
+    <string name="button_scan_another">Escanear otro producto</string>
+    <string name="http_request_loading_msg">Cargando…</string>
+    <string name="help">Ayuda</string>
+    <string name="authcode_scan_help">Algunos caracteres a veces pueden ser reconocidos erróneamente.</string>
+    <string name="authcode_scan_example_first">Por ejemplo, \"O\" (mayúscula \"o\") y \"0\" (número cero)</string>
+    <string name="authcode_scan_example_second">Otro ejemplo, \"I\" (mayúscula \"i\") y \"1\" (número uno)</string>
+    <string name="authcode_scan_view_information">Ver la infomación</string>
+    <string name="authcode_scan_close_information">Cerrar información</string>
+    <string name="create_account_webview_title">Crear una cuenta</string>
+    <string name="button_validate">Valide</string>
+    <string name="text_modify">Modifique</string>
+    <string name="text_authcode_top_modify">Puede modificar el código</string>
+    <string name="text_authcode_validate">¿Es este el código del producto?</string>
+    <string name="text_authcode_error">Campo obligatorio</string>
+    <string name="text_points_bottom_text">en el  Programa de fidelización</string>
+    <string name="text_points_top_text">Ahora lo tienes</string>
+    <string name="session_expired">Su sesión ha expirado.</string>
+    <string name="button_search_code">Sí, confirmo el código</string>
+    <string name="button_modify_code">No, modificalo manualmente</string>
+    <string name="button_recognize_again">No, inténtelo de nuevo</string>
+    <string name="text_rescan_product"><u>Cancelar e intentarlo con otro producto</u></string>
+    <string name="title_scan_notice_first_barcode">Escanee el</string>
+    <string name="title_scan_notice_second_barcode">Código de barras</string>
+    <string name="text_scan_notice_help_barcode">Mantenga el cuadro enfrente del código y asegúrese de que la cámara tenga un buen enfoque. Las buenas condiciones de iluminación también pueden ayudar a la velocidad y precisión del escaneo.</string>
+    <string name="title_scan_notice_first_auth">Escanee el</string>
+    <string name="title_scan_notice_second_auth">Código de autenticidad</string>
+    <string name="text_scan_notice_help_auth">Enfoque la cámara al código. No acerque la cámara al código para que sea un escaneo estable y eficaz.</string>
+
+    <string name="text_enter_authcode_manually">Introduce el código manualmente</string>
+    <string name="text_enter_barcode_manually">Introduce el código manualmente</string>
+    <string name="text_capsule_error_authcode">Ooops, está tomando más tiempo del habitual. Intente encuadrar <b>el código de manera diferente</b> o <b>ingréselo manualmente</b>.</string>
+    <string name="text_capsule_error_barcode">Ooops, toma más tiempo de lo habitual. Intente <b>encuadrar el código de manera diferente</b> o <b>ingréselo manualmente</b>.</string>
+
+    <string name="text_enter_barcode">Introduzca el código de barras</string>
+    <string name="text_barcode_explanation">El código de barras es un código de 13 dígitos que encontrará fácilmente en la caja del producto Valeo.</string>
+    <string name="hint_enter_barcode">Introduzca el código de barras</string>
+    <string name="text_submit_barcode">Comprobar el código</string>
+
+    <string name="text_enter_authcode">Introduzca el código de autenticidad</string>
+    <string name="text_authcode_explanation">El código de autenticidad es un conjunto de  13 caracteres que econtrás en la caja de producto Valeo.</string>
+    <string name="hint_enter_authcode">Introduzca el código de autenticidad</string>
+    <string name="text_submit_authcode">Comprobar el código</string>
+
+    <string name="authcode_intro_notice_title_first">Siguiente paso, escanee el</string>
+    <string name="authcode_intro_notice_title_second">Código de autenticidad</string>
+    <string name="authcode_intro_notice_description">Para <b>obtener sus puntos</b>, su producto debe estar <b>autentificado</b>. La cámara te ayudará.</string>
+    <string name="authcode_intro_notice_next">¡Empecemos a escanear!</string>
+
+    <string name="text_welcome_hello">Hola</string>
+    <string name="text_welcome_you_have">Usted quiere:</string>
+    <string name="text_welcome_points">Ver sus puntos</string>
+    <string name="text_welcome_gift_shop">Ver el catálogo de regalos</string>
+    <string name="text_welcome_scan">Ecanear un producto Valeo</string>
+    <string name="text_welcome_no_points"><b>Bienvenido al Valeo Specialist Club.</b> Es realmente sencillo: comience a escanear los productos Valeo lo cual le permitirá acumular puntos, y acceder al amplio catálogo de regalos que tenemos preparado para usted. A continuación pinche en \" <b>Escanear un producto</b> \" para comenzar!</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/char_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/onechar_margin"
+        android:layout_marginLeft="@dimen/onechar_margin"
+        android:layout_marginRight="@dimen/onechar_margin"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/authcode_edit_char_border"
+        android:fontFamily="@font/ibm_plex_mono_family"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:maxLength="1"
+        android:minHeight="85dp"
+        android:minWidth="50dp"
+        android:paddingBottom="@dimen/onechar_padding_top_bottom"
+        android:paddingLeft="@dimen/onechar_padding_left_right"
+        android:paddingRight="@dimen/onechar_padding_left_right"
+        android:paddingTop="@dimen/onechar_padding_top_bottom"
+        android:textColor="@drawable/authcode_edit_char_color"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/image_undo"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/i_back_selector"
+        android:contentDescription="@string/app_name" />
+</RelativeLayout>

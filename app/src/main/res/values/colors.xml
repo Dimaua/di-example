@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorErrorText">#d0341b</color>
+    <color name="colorHint">#BDC2C6</color>
+
+    <color name="colorNavigationCenter">#81CB0C</color>
+    <color name="colorNavigationEnd">#83BB13</color>
+    <color name="colorNavigationStart">#7FE202</color>
+    <color name="nav_view_icons">#94c434</color>
+    <color name="camera_overlay">#9E000000</color>
+    <color name="colorLightGrey">#9EA1A6</color>
+    <color name="onechar_color">#9EA5AB</color>
+    <color name="colorDarkBlueText">#607c8d</color>
+
+    <color name="colorGreen">#78D443</color>
+    <color name="colorDarkGreen">#689f38</color>
+    <color name="colorBackgroundGrey">#F5F5F5</color>
+    <color name="colorScanButton">#5B7C8A</color>
+
+    <color name="splashGradientStart">#67E546</color>
+    <color name="splashGradientEnd">#79B93D</color>
+</resources>
